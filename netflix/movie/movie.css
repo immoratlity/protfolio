@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+header {
+  height: 10vh;
+  background-color: #000000;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.head .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.head .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.head .logo img {
+  width: 150px;
+  height: 65px;
+}
+.head .i {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.head .i i {
+  color: #fff;
+  font-size: 20px;
+}
+
+main {
+  background-color: #000000;
+  height: 90vh;
+  position: relative;
+}
+main .rrr {
+  padding-left: 50px;
+}
+main .rrr h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+main .rrr .w {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .rrr .w div {
+  width: 58px;
+  height: 64px;
+  background-color: #E50914;
+  border-radius: 10px;
+}
+main .rrr .w div p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+}
+main .rrr h2 {
+  font-size: 23px;
+  font-weight: 800;
+  color: #fff;
+}
+main .rrr .play {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main .rrr .play .e {
+  background-color: #fff;
+  width: 157px;
+  height: 75px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main .rrr .play .e i {
+  color: #000000;
+  font-size: 40px;
+}
+main .rrr .play .e p {
+  font-size: 20px;
+  font-weight: 600;
+}
+main .rrr .play .q {
+  background-color: rgba(106, 104, 104, 0.7490196078);
+  width: 223px;
+  height: 75px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main .rrr .play .q i {
+  color: #fff;
+  font-size: 25px;
+}
+main .rrr .play .q p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.box1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  left: 1600px;
+}
+.box1 .t {
+  width: 20px;
+  height: 80px;
+}
+.box1 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+section {
+  background-color: #000000;
+}
+section .container {
+  width: 80%;
+  margin-left: 100px;
+}
+section .container div h2 {
+  color: #fff;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-top: 80px;
+  padding-left: 200px;
+}
+.logos i {
+  font-size: 45px;
+  color: #fff;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.last div a {
+  color: #fff;
+}/*# sourceMappingURL=movie.css.map */

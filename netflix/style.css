@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+main {
+  background-image: url(/img/bcg.png);
+  height: 105vh;
+  background-size: cover;
+}
+main .maincolor {
+  width: 100%;
+  height: 105vh;
+  background-color: rgba(0, 0, 0, 0.4588235294);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  height: 20vh;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.head .sign {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.head .sign button {
+  width: 73px;
+  height: 37px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #fff;
+  background-color: #e50914;
+  font-family: "Inter Tight", sans-serif;
+  border: transparent;
+  border-radius: 5px;
+}
+.head .sign div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 170px;
+  height: 37px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.head .sign div h3 {
+  color: #fff;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+}
+.head .sign div i {
+  color: #fff;
+}
+
+.logo img {
+  width: 255px;
+  height: 90px;
+}
+
+.rega {
+  width: 494px;
+  height: 684px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  padding: 90px;
+}
+.rega h1 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.rega input {
+  width: 304px;
+  height: 51px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border: transparent;
+  outline: none;
+  padding-left: 20px;
+}
+.rega a {
+  display: inline-block;
+  width: 304px;
+  height: 51px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  background-color: #e50914;
+  font-family: "Inter Tight", sans-serif;
+  border: transparent;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 12px;
+  text-decoration: none;
+}
+.rega a a {
+  text-decoration: none;
+  color: #fff;
+}
+.rega .remem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 60px;
+}
+.rega .remem div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rega .remem div input {
+  width: 21px;
+  height: 20xp;
+}
+.rega .remem div p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6a6868;
+}
+.rega div h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6a6868;
+  padding-left: 10px;
+}
+.rega div h2 span {
+  color: #fff;
+}
+.rega div h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6a6868;
+  padding-left: 10px;
+}
+.rega div h4 span {
+  color: #0071eb;
+}
+
+.sec1 {
+  height: 60vh;
+  background-color: #000000;
+}
+
+.num1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+.num1 div h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+}
+.num1 div h2 {
+  font-size: 25px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.num2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.num2 div h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+}
+.num2 div h2 {
+  font-size: 25px;
+  font-weight: 800;
+  color: #fff;
+}
+.num2 div img {
+  width: 550px;
+}
+
+.num3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 180px;
+}
+.num3 div h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+}
+.num3 div h2 {
+  font-size: 25px;
+  font-weight: 800;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
