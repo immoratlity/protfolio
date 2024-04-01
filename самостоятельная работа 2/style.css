@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  background-color: #0e0e18;
+  height: 7vh;
+  width: 100%;
+  padding-top: 7px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.head .logo div p {
+  color: rgba(255, 255, 255, 0.431372549);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.number {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.number div p {
+  color: #414157;
+  font-size: 12px;
+  font-weight: 400;
+}
+.number div h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.number i {
+  color: #fff;
+  font-size: 25px;
+}
+
+main {
+  background-image: url(/img/bg6\ 1.png);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box1 .data {
+  padding: 3px;
+  background-color: rgba(212, 212, 212, 0.6901960784);
+}
+.box1 .data h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.box1 .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.box1 .time h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #5b6375;
+}
+.box1 .time i {
+  font-size: 20px;
+  font-weight: 300;
+  color: #5b6375;
+}
+.box1 .time button {
+  background-color: #ef3833;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.main-img {
+  padding-top: 100px;
+  width: 550px;
+}
+
+.box2 h1 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.box2 h2 {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  color: #fff;
+}
+.box2 div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.box2 div h3 {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding-top: 15px;
+}
+.box2 div h3 span {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.sec1 {
+  background-color: #0e0e18;
+}
+
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box3 .days h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #63CDF6;
+}
+.box3 .days div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.box3 .days div p {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.box3 .price div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box3 .price div h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #45CCFF;
+}
+.box3 .price div h2 span {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: line-through;
+}
+.box3 .price div i {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #45CCFF;
+  padding-right: 25px;
+}
+.box3 .price button {
+  background-color: #45CCFF;
+  padding: 7px 30px;
+  border: solid transparent;
+  border-radius: 25px;
+  color: #fff;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.sec2 {
+  background: radial-gradient(17.5% 60.52% at 96.35% 107.82%, rgba(239, 56, 51, 0.195) 0%, rgba(239, 56, 51, 0) 100%), radial-gradient(12.83% 39.86% at 12.01% 47.74%, rgba(33, 37, 60, 0.879) 0%, rgba(21, 22, 40, 0) 100%);
+  background-color: #0e0e18;
+  height: 50vh;
+  padding-top: 100px;
+}
+
+.info .sec-img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.info .sec-text {
+  padding-top: 30px;
+}
+.info .sec-text h1 {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.info .sec-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.info .sec-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 80%;
+}
+.info .sec-box .q {
+  width: 270px;
+  height: 110px;
+  background-color: #fff;
+  text-align: start;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+.info .sec-box .q p {
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+.info .sec-box .q p span {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #3F4266;
+}
+.info .sec-box .q img {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 85px;
+  left: 200px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.info .sec-box .w {
+  width: 270px;
+  height: 110px;
+  background-color: #fff;
+  text-align: start;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+.info .sec-box .w p {
+  padding-left: 20px;
+  padding-top: 35px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+.info .sec-box .w p span {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #3F4266;
+}
+.info .sec-box .w img {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 85px;
+  left: 510px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.info .e {
+  width: 270px;
+  height: 110px;
+  background-color: #fff;
+  text-align: start;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+.info .e p {
+  padding-left: 20px;
+  padding-top: 35px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+.info .e p span {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #3F4266;
+}
+.info .e img {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 85px;
+  left: 820px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+.sec3 {
+  background: radial-gradient(17.5% 60.52% at 96.35% 107.82%, rgba(239, 56, 51, 0.195) 0%, rgba(239, 56, 51, 0) 100%), radial-gradient(27.28% 91.21% at 14.55% 97.9%, rgba(33, 37, 60, 0.8) 0%, rgba(21, 22, 40, 0) 100%);
+  background-color: #0e0e18;
+  height: 103vh;
+  padding-top: 80px;
+}
+
+.sec3-img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sec3-text {
+  padding-top: 30px;
+}
+.sec3-text h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.sec3-text h2 {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.six {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.six div {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  width: 450px;
+  height: 150px;
+  padding-left: 30px;
+}
+.six div i {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 18px;
+}
+.six div p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.six .t {
+  border-left: 2px solid rgba(255, 255, 255, 0.2549019608);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2549019608);
+  border-right: 2px solid rgba(255, 255, 255, 0.2549019608);
+  margin-top: 40px;
+}
+.six .y {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2549019608);
+  margin-top: 40px;
+}
+.six .y img {
+  position: absolute;
+  left: 350px;
+  top: 130px;
+}
+.six .may div {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80px;
+}
+.six .may div h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #45CCFF;
+}
+.six .may div h2 span {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: line-through;
+}
+.six .may div button {
+  background-color: #45CCFF;
+  padding: 7px 30px;
+  border: solid transparent;
+  border-radius: 25px;
+  color: #fff;
+  margin-left: 100px;
+}
+.six .p .ss {
+  position: absolute;
+  left: 320px;
+  top: 200px;
+}
+.six .p .s {
+  position: absolute;
+  bottom: 95px;
+  left: 260px;
+}
+.six .p p {
+  padding-bottom: 15px;
+}
+.six .a {
+  border-left: 2px solid rgba(255, 255, 255, 0.2549019608);
+  border-right: 2px solid rgba(255, 255, 255, 0.2549019608);
+}
+
+.sec3-last {
+  text-align: center;
+  padding-top: 200px;
+}
+.sec3-last h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-top: 40px;
+}
+
+.sec4 .d {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  max-width: 100%;
+}
+.sec4 .d img {
+  width: 17%;
+  height: 300px;
+}
+.sec4 .dd {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.sec4 .dd img {
+  width: 20%;
+}
+
+footer {
+  background-color: #0e0e18;
+  height: 15vh;
+  padding-top: 50px;
+}
+footer .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .head .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+footer .head .logo div p {
+  color: rgba(255, 255, 255, 0.431372549);
+  font-size: 12px;
+  font-weight: 400;
+}
+footer .number {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+footer .number div p {
+  color: #414157;
+  font-size: 12px;
+  font-weight: 400;
+}
+footer .number div h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .number i {
+  color: #fff;
+  font-size: 25px;
+}
+footer .number .f {
+  padding-right: 50px;
+  width: 200px;
+  padding-top: 10px;
+}/*# sourceMappingURL=style.css.map */
