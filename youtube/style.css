@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo > i {
+  color: red;
+  font-size: 40px;
+}
+
+.logo > p {
+  font-size: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 600px;
+  border-radius: 50px;
+  border: 1px solid #cccc;
+  padding: 5px 10px;
+  margin-right: 14px;
+}
+
+.search > div > input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search > div > i {
+  border-left: 1px solid #ccc;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.search > i {
+  background-color: grey;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 100%;
+  font-size: 20px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.account > img {
+  width: 40px;
+  border-radius: 100%;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 8vh;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  overflow: scroll;
+  position: fixed;
+  left: 0;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  height: 1000px;
+  margin-left: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 30px;
+}
+
+.content > .q {
+  width: 32%;
+}
+
+.content > div > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.content > div > p {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.content > div > h3 {
+  color: rgba(128, 128, 128, 0.719);
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 10px;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.box1 > div > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box1 > div > p {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.ez {
+  background-color: rgb(255, 255, 255);
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 30px;
+}
+
+.ez > .q {
+  width: 32%;
+}
+
+.ez > div > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.ez > div > p {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.ez > div > h3 {
+  color: rgba(128, 128, 128, 0.719);
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 10px;
+}
+
+.sub > div > p {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sub > div {
+  margin: 20px 40px;
+  width: 80%;
+  padding: 10px;
+}
+
+.sub {
+  padding-top: 10px;
+  border-bottom: 1px solid #cccc;
+}
+
+.sub > div:hover {
+  background-color: #cccc;
+  border-radius: 10px;
+}
+
+.you {
+  padding-top: 10px;
+  border-bottom: 1px solid #cccc;
+}
+
+.you > div {
+  margin: 20px 40px;
+  width: 80%;
+  padding: 10px;
+}
+
+.you > div > p {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.you > div:hover {
+  background-color: #cccc;
+  border-radius: 10px;
+}
+
+.you > h3 {
+  margin-left: 49px;
+}
+
+.nav {
+  padding-top: 10px;
+  border-bottom: 1px solid #cccc;
+}
+
+.nav > div {
+  margin: 20px 40px;
+  width: 80%;
+  padding: 10px;
+}
+
+.nav > div > p {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav > div:hover {
+  background-color: #cccc;
+  border-radius: 10px;
+}
+
+.nav > h3 {
+  margin-left: 49px;
+}
